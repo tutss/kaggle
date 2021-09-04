@@ -8,7 +8,6 @@ COUNTRY_ID = 'BR'
 hiphop_category_id = 'hiphop'
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
-    
 def save_dict(filename, data):
     with open(f'{filename}.json', 'w') as fp:
         json.dump(data, fp)

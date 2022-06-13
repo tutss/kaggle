@@ -130,3 +130,5 @@ dmypy.json
 
 
 input/
+training/spotify-project/data
+training/spotify-project/track_list_json

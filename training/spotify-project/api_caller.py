@@ -74,6 +74,15 @@ def dict_to_dataframe(dic):
     return df
 
 def main():
+    '''
+    Collects track information.
+    
+    We first collect the playlists related to Hip Hop on BR.
+    Then, collect track info for every track on this respective playlist.
+    We aggregate track info such as tempo, loudness, liveness and etc.
+    
+    API reference: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
+    '''
     now = str(date.today())
     folder = 'track_list_json'
     

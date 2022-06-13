@@ -21,9 +21,14 @@ It needs:
 
 Dataset date is fixed by the last data collection time.
 
-Needs to:
-- remove duplicates by name
+Columns description can be found here as well as in [Spotify docs](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features).
 
+It:
+- removes duplicates by song name (remain only one, even if they are on different playlists)
+- maps the artists name into a readable list without artist id
+- removes unnecessary columns
+- maps datetime column
+- saves dataset with only BR related songs
 
 ## Data analysis
 ### analysis.ipynb
